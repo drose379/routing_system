@@ -20,7 +20,7 @@ public function match($url) {
 public function run($url) {
 	//Run is called on index page, gets the action and paraters from the URL with match, and calls the action and passes the params below.
 	list($action,$matches) = $this->match($url); //Giving null
-	var_dump($matches[storyid]);
+	var_dump($matches["storyid"]);
 }
 
 //Need to pass params to the action (correct controller)
