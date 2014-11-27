@@ -2,7 +2,7 @@
 
 class controllers {
 
-public function control1($url) {
+public function control1($param) {
 	
 }
 
